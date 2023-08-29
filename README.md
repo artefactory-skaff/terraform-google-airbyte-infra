@@ -65,7 +65,7 @@ This module will provision the following resources.
 
 As a security precaution, the Airbyte VM is not reachable from the internet. The only way to access it is through gcloud-authenticated SSH. Egress traffic is of course possible to access remote data sources to pull data from.
 
-The Airbyte service account has fairly high level of privilege on GCS and BQ (`roles/storage.objectAdmin`, and `roles/bigquery.dataEditor`), allowing it to read/write on any table or bucket. There permissions are required to allow Airbyte to create temporary datasets and tables. If that is an issue for you, you can isolate this deployment in a dedicated project.
+The Airbyte service account has fairly high level of privilege on GCS and BQ (`roles/storage.objectAdmin`, and `roles/bigquery.dataEditor`), allowing it to read/write on any table or bucket. These permissions are required to allow Airbyte to create temporary datasets and tables. If that is an issue for you, you can isolate this deployment in a dedicated project.
 
 --------
 ## Auto-generated module documentation
