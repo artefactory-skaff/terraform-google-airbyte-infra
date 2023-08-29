@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: terraform-google-airbyte-flows
-  title: Terraform module to deploy Airbyte ELT flows
+  name: terraform-google-airbyte-infra
+  title: Terraform module to deploy an Airbyte server on GCP
   description: >
-    A Terraform module to programmatically deploy end-to-end ELT flows to BigQuery on Airbyte.
+    A Terraform module to programatically deploy an Airbyte server on GCP.
   annotations:
-    github.com/project-slug: artefactory/terraform-google-airbyte-flows
+    github.com/project-slug: artefactory/terraform-google-airbyte-infra
     backstage.io/techdocs-ref: dir:.
   tags:
     - infrastructure
