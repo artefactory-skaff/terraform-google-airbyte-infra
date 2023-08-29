@@ -17,3 +17,29 @@ module "airbyte" {
   zone       = "<ZONE>"   # List available zones with `gcloud compute zones list`
 }
 ```
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_airbyte"></a> [airbyte](#module\_airbyte) | artefactory/airbyte-infra/google | ~> 0 |
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
