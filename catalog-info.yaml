@@ -6,7 +6,7 @@ metadata:
   description: >
     A Terraform module to programatically deploy an Airbyte server on GCP.
   labels:
-    accelerator: "1"
+    technical: "1"
   annotations:
     github.com/project-slug: artefactory/terraform-google-airbyte-infra
     backstage.io/techdocs-ref: dir:.
