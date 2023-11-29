@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: terraform-google-airbyte-infra
-  title: Terraform module to deploy an Airbyte server on GCP
+  title: Terraform module GCP Airbyte server
   description: >
     A Terraform module to programatically deploy an Airbyte server on GCP.
   labels:
