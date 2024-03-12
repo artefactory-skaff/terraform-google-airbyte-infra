@@ -40,6 +40,10 @@ resource "google_compute_router_nat" "airbyte_nat" {
   min_ports_per_vm       = 64
 
   source_subnetwork_ip_ranges_to_nat = "ALL_SUBNETWORKS_ALL_IP_RANGES"
+
+  lifecycle {
+    replace_triggered_by = [google_compute_address.airbyte_external_ip]
+  }
 }
 
 resource "google_compute_route" "internet_route" {
