@@ -2,6 +2,8 @@
 
 A Terraform module to deploy an Airbyte server on a GCP compute engine instance.
 
+Deployed Airbyte version: **0.52.0**
+
 - [Github repo](https://github.com/artefactory/terraform-google-airbyte-infra)
 - [Terraform module registry](https://registry.terraform.io/modules/artefactory/airbyte-infra/google/latest)
 
