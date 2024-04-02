@@ -9,7 +9,7 @@ description: >
   A Terraform module to programatically deploy an Airbyte server on GCP.
 documentation_url: null    # Fixme
 
-type: deployable      # deployable, knowldege pack
+type: deployable      # deployable, knowledge pack
 lifecycle: production  # prototype, production
 
 users:                # DS, DA, DE
@@ -23,6 +23,6 @@ technologies:         # python, dbt, terraform, airbyte, ...
   - terraform
   - airbyte
 
-expertises: []        # MMM, forecasting, ELT, release engineering, ...
+expertises:           # MMM, forecasting, ELT, release engineering, ...
   - infrastructure as code
   - ELT
