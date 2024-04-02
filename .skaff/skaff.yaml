@@ -1,0 +1,28 @@
+spec_version: 1
+
+# Everyting in this file will be used to populate the catalog on skaff.artefact.com
+# It is also vectorized as is for the search, so make sure to provide relevant keywords
+
+name: Terraform module GCP Airbyte server
+owner: alexis.vialaret@artefact.com
+description: >
+  A Terraform module to programatically deploy an Airbyte server on GCP.
+documentation_url: null    # Fixme
+
+type: deployable      # deployable, knowldege pack
+lifecycle: production  # prototype, production
+
+users:                # DS, DA, DE
+  - DS
+  - DE
+
+clouds:               # aws, gcp, azure, databricks
+  - gcp
+
+technologies:         # python, dbt, terraform, airbyte, ...
+  - terraform
+  - airbyte
+
+expertises: []        # MMM, forecasting, ELT, release engineering, ...
+  - infrastructure as code
+  - ELT
