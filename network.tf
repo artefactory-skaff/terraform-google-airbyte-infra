@@ -58,7 +58,7 @@ resource "google_compute_route" "internet_route" {
 
 resource "google_compute_firewall" "allow_ssh_from_iap" {
   project     = var.project_id
-  name        = "allow-ssh-from-iap"
+  name        = var.config.ssh_from_iap_firewall_name
   description = "Allow SSH from IAP"
   direction   = "INGRESS"
   network     = google_compute_network.airbyte_vpc.id
@@ -73,7 +73,7 @@ resource "google_compute_firewall" "allow_ssh_from_iap" {
 
 resource "google_compute_firewall" "allow_internal_traffic" {
   project     = var.project_id
-  name        = "allow-internal-traffic"
+  name        = var.config.internal_traffic_firewall_name
   description = "Allow internal traffic within VPC"
   direction   = "INGRESS"
   network     = google_compute_network.airbyte_vpc.id
