@@ -10,7 +10,7 @@ description: >
 documentation_url: null    # Fixme
 
 type: deployable      # deployable, knowledge pack
-lifecycle: production  # prototype, production
+lifecycle: deprecated  # prototype, production
 
 users:                # DS, DA, DE
   - DS
